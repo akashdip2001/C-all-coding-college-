@@ -1,0 +1,29 @@
+ .contact-content {
+     height: 395px;
+     height: 100vh;
+     /* background-color: rgb(189, 209, 255); */
+     /* display: flex; */
+     margin-top: 32px;
+     padding: 9px;
+     position: relative;
+     border-radius: 12px;
+     overflow: hidden;
+ }
+
+ .contact-content::after {
+     content: "";
+     background-image: url("https://camo.githubusercontent.com/05172fb9fc051b25230d23e69fa4a4726d262d131afb1cc9c3155202ac9befe0/68747470733a2f2f72322e636f6d6d756e6974792e73616d73756e672e636f6d2f74352f696d6167652f736572766572706167652f696d6167652d69642f3333303436353769413630423643413731354533393735462f696d6167652d73697a652f6c617267652f69732d6d6f6465726174696f6e2d6d6f64652f747275653f763d76322670783d393939");
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: inherit;
+     opacity: 0.15;
+     z-index: -1;
+ }
+
+ .contact-contant2 {
+    height: 3px;
+    background-color: blueviolet;
+
+}
+

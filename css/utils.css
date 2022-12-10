@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patrick+Hand&family=Space+Mono&display=swap');
+
+:root {
+    --mean-bg-colour: rgb(143, 131, 255);
+    --font1: 'Fredoka One', cursive;
+    --font2: 'Space Mono', monospace;
+    --font3: 'Patrick Hand', cursive;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 80vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    padding: 0px 5px;
+    /* padding-top: 1px; */
+    padding-bottom: 1px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 13px;
+    font-family: var(--font2);
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background: var(--mean-bg-colour);
+}
+
+.form-input {
+    padding: 0px 5px;
+    /* padding-top: 1px; */
+    padding-bottom: 1px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 13px;
+    font-family: var(--font2);
+}
+
+.from-box input, textarea{
+    width: 52vw;
+    padding: 10px 9px;
+    margin: 7px 0;
+    border-radius: 20px;
+    font-family: var(--font2);
+    border: 2px solid olive;
+}
